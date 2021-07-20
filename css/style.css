@@ -1,0 +1,93 @@
+
+
+  .bg-03 {
+    position: relative;
+    padding: 3.125rem 0;
+    background: #fafafa;
+    overflow: hidden; }
+    .bg-03 .wrapper {
+      position: relative;
+      display: block;
+      margin: 1.25rem 0;
+      padding: 1.25rem; }
+      .bg-03 .wrapper .content {
+        text-align: center; }
+        .bg-03 .wrapper .content ol li {
+          display: block; }
+          .bg-03 .wrapper .content ol li i {
+            font-size: 1.875rem;
+            color: #fd580b;
+            margin: .625rem 0;
+            display: block; }
+          .bg-03 .wrapper .content ol li h3 {
+            font-size: 1.25rem;
+            color: #222222;
+            font-weight: 600; }
+          .bg-03 .wrapper .content ol li p {
+            display: block;
+            margin: .625rem 0;
+            color: #373738;
+            font-size: 1rem; }
+
+            
+            .heading_1 {
+              position: absolute;
+              top: 55%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              background-color: rgb(240, 87, 87);
+              color: white;
+              font-size: 16px;
+              padding: 12px 24px;
+              border: none;
+              cursor: pointer;
+              border-radius: 5px;
+              text-align: center;
+            }
+
+            .abt-01 {
+              padding: 3.125rem 0;
+              background: #fd580b;
+              position: relative;
+              overflow: hidden;
+              z-index: 9; 
+            }
+              .abt-01::before {
+                position: absolute;
+                content: "";
+                background: #fff;
+                height: 9.375rem;
+                width: 9.375rem;
+                top: 0%;
+                left: 48%;
+                z-index: 1;
+                opacity: 0.1;
+                transform: translate3d(-23%, 17%, 0) rotate(-54deg); }
+              .abt-01 .heading-wrapper {
+                position: relative;
+                margin: 1.25rem 0;
+                display: block;
+                text-align: center;
+                z-index: 8; 
+              }
+                .abt-01 .heading-wrapper h3 {
+                  font-size: 1.25rem;
+                  font-weight: 700;
+                  color: #fff;
+                  margin-bottom: 0.625rem;
+                  text-transform: uppercase; 
+                }
+                .abt-01 .heading-wrapper ol li {
+                  display: inline-block;
+                  font-size: 1rem;
+                  color: #ddd; 
+                }
+                  .abt-01 .heading-wrapper ol li:nth-child(2) {
+                    color: #fff; 
+                  }
+                  .abt-01 .heading-wrapper ol li i {
+                    margin: 0 0.625rem;
+                    color: #ddd; 
+                  }
+            
